@@ -10,7 +10,7 @@ Feedstock license: BSD 3-Clause
 Summary: A Statistical Parameter Optimization Tool
 
 SPOTPY is a Python framework that enables the use of Computational optimization techniques for calibration,
-uncertainty and sensitivity analysis techniques of almost every (environmental-) model. The package is puplished
+uncertainty and sensitivity analysis techniques of almost every (environmental-) model. The package is published
 in the open source journal PLoS One:
 
 Houska, T., Kraft, P., Chamorro-Chavez, A. and Breuer, L.: SPOTting Model Parameters Using a Ready-Made Python
