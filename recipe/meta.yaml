@@ -10,7 +10,7 @@ source:
   sha256: ed185336bff69b521ea5e2ea780ab23d8b2c56b839df7af2f7b6d8ff5ad3c76b
 
 build:
-  number: 0
+  number: 2
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv "
 
@@ -49,7 +49,7 @@ about:
   summary: A Statistical Parameter Optimization Tool
   description: |
     SPOTPY is a Python framework that enables the use of Computational optimization techniques for calibration, 
-    uncertainty and sensitivity analysis techniques of almost every (environmental-) model. The package is puplished 
+    uncertainty and sensitivity analysis techniques of almost every (environmental-) model. The package is published 
     in the open source journal PLoS One:
 
     Houska, T., Kraft, P., Chamorro-Chavez, A. and Breuer, L.: SPOTting Model Parameters Using a Ready-Made Python 
