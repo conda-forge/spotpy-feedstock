@@ -27,6 +27,7 @@ requirements:
     - mpi4py
     - pathos
     - pytables
+    - numba
 
 test:
   imports:
