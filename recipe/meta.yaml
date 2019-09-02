@@ -41,6 +41,8 @@ test:
     - spotpy.gui
     - spotpy.hydrology
     - spotpy.parallel
+  requires:
+    - unittests
 
 about:
   home: http://fb09-pasig.umwelt.uni-giessen.de/spotpy/
