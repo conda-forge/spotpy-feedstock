@@ -10,7 +10,7 @@ source:
   sha256: da1409382f4dc129f11d6b1f6c0fec2c7ac27bb5e9a755d078d59815aaf87ec5
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv "
 
@@ -23,7 +23,7 @@ requirements:
     - numpy
     - scipy
     - pandas
-    - matplotlib
+    - matplotlib-base
     - mpi4py
     - pathos
     - pytables
