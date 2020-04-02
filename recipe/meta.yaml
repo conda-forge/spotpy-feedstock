@@ -1,18 +1,18 @@
 {% set name = "spotpy" %}
-{% set version = "1.5.8" %}
+{% set version = "1.5.9" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: da1409382f4dc129f11d6b1f6c0fec2c7ac27bb5e9a755d078d59815aaf87ec5
+  sha256: dc8976f35ab67d6ed90c4fe0211cb177bd001a951ce33f2161846c60d332f805
 
 build:
-  number: 1
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps -vv '
 
 requirements:
   host:
