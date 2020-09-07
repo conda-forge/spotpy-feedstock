@@ -5,7 +5,7 @@ Home: http://fb09-pasig.umwelt.uni-giessen.de/spotpy/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A Statistical Parameter Optimization Tool
 
