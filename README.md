@@ -1,7 +1,7 @@
 About spotpy
 ============
 
-Home: http://fb09-pasig.umwelt.uni-giessen.de/spotpy/
+Home: https://spotpy.readthedocs.io/en/latest/
 
 Package license: MIT
 
