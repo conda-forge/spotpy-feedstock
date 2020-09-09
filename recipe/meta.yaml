@@ -1,5 +1,5 @@
 {% set name = "spotpy" %}
-{% set version = "1.5.12" %}
+{% set version = "1.5.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 995e9f7ccf5bf1bc6709c41aa4ae80916f6e072255038540be41617f975b635f
+  sha256: 41f801cc0abc04a8a67b2877277bac54f99d59d2123aab067ee70f312a33fa16
 
 build:
   number: 0
@@ -43,7 +43,7 @@ test:
     - spotpy.parallel
 
 about:
-  home: http://fb09-pasig.umwelt.uni-giessen.de/spotpy/
+  home: https://spotpy.readthedocs.io/en/latest/
   license: MIT
   license_family: MIT
   license_file: LICENSE
@@ -55,7 +55,7 @@ about:
 
     Houska, T., Kraft, P., Chamorro-Chavez, A. and Breuer, L.: SPOTting Model Parameters Using a Ready-Made Python 
     Package, PLoS ONE, 10(12), e0145180, doi:10.1371/journal.pone.0145180, 2015.
-  doc_url: http://fb09-pasig.umwelt.uni-giessen.de/spotpy/
+  doc_url: https://spotpy.readthedocs.io/en/latest/
   dev_url: https://github.com/thouska/spotpy
 
 extra:
