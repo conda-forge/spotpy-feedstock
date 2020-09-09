@@ -5,7 +5,7 @@ Home: https://spotpy.readthedocs.io/en/latest/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A Statistical Parameter Optimization Tool
 
