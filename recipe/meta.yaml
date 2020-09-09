@@ -26,7 +26,7 @@ requirements:
     - matplotlib-base
     - mpi4py
     - pathos
-    - pytables
+    - click
     - numba
 
 test:
@@ -43,7 +43,7 @@ test:
     - spotpy.parallel
 
 about:
-  home: http://fb09-pasig.umwelt.uni-giessen.de/spotpy/
+  home: https://spotpy.readthedocs.io/en/latest/
   license: MIT
   license_family: MIT
   license_file: LICENSE
@@ -55,7 +55,7 @@ about:
 
     Houska, T., Kraft, P., Chamorro-Chavez, A. and Breuer, L.: SPOTting Model Parameters Using a Ready-Made Python 
     Package, PLoS ONE, 10(12), e0145180, doi:10.1371/journal.pone.0145180, 2015.
-  doc_url: http://fb09-pasig.umwelt.uni-giessen.de/spotpy/
+  doc_url: https://spotpy.readthedocs.io/en/latest/
   dev_url: https://github.com/thouska/spotpy
 
 extra:
