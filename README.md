@@ -5,9 +5,13 @@ Home: https://spotpy.readthedocs.io/en/latest/
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spotpy-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Statistical Parameter Optimization Tool
+
+Development: https://github.com/thouska/spotpy
+
+Documentation: https://spotpy.readthedocs.io/en/latest/
 
 SPOTPY is a Python framework that enables the use of Computational optimization techniques for calibration,
 uncertainty and sensitivity analysis techniques of almost every (environmental-) model. The package is published
