@@ -1,5 +1,5 @@
 {% set name = "spotpy" %}
-{% set version = "1.5.14" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b59175fb50807b442b0d98ced7ae403778cc1cb4c2694039478fe32ea57d85c5
+  sha256: 7a1af2309438636f51bfc193e33538187938ab1e05233dd1d87938d2a10fc2d7
 
 build:
   number: 0
@@ -17,9 +17,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.7
   run:
-    - python
+    - python >=3.7
     - numpy
     - scipy
     - pandas
