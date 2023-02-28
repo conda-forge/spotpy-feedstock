@@ -1,11 +1,11 @@
-About spotpy
-============
+About spotpy-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spotpy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://spotpy.readthedocs.io/en/latest/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spotpy-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Statistical Parameter Optimization Tool
 
