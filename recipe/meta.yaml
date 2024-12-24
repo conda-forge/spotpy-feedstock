@@ -6,20 +6,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 5bad39a4d7605167a7874bc8b8eca72708b9ee0e7a3fb7088204333dbdf77350
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: '{{ PYTHON }} -m pip install . --no-deps -vv '
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - numpy
     - scipy
     - pandas
@@ -30,6 +30,8 @@ requirements:
     - numba
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - spotpy
     - spotpy.algorithms
