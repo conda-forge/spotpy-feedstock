@@ -48,6 +48,7 @@ test:
     - numba
     - pathos
     - pip >=25.2
+    - pytables
     - pytest
     - pytest-cov
   source_files:
