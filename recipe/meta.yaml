@@ -17,25 +17,19 @@ build:
 
 requirements:
   host:
-    - pip
+    - pip >=25.2
     - python {{ python_min }}
     - setuptools >=64
     - setuptools_scm >=6.4
   run:
     - python >={{ python_min }}
-    - numpy >=2.0
-    - scipy >=1.5.0
-    - pandas >=1.0
     - matplotlib-base >=3.0
     - mpi4py
+    - numpy >=2.0
+    - pandas >=1.0
+    - scipy >=1.5.0
 
 test:
-  requires:
-    - python {{ python_min }}
-    - pathos
-    - numba
-    - docutils
-    - click    
   imports:
     - spotpy
     - spotpy.algorithms
@@ -47,6 +41,21 @@ test:
     - spotpy.gui
     - spotpy.hydrology
     - spotpy.parallel
+  requires:
+    - python {{ python_min }}
+    - click
+    - docutils
+    - numba
+    - pathos
+    - pip >=25.2
+    - pytest
+    - pytest-cov
+  source_files:
+    - pyproject.toml
+    - tests 
+  commands:
+    - pip check
+    - python -m pytest --cov spotpy --cov-report term-missing -v tests/
 
 about:
   home: https://spotpy.readthedocs.io/en/latest/
